@@ -1,10 +1,8 @@
 * {
     background-color: rgb(28, 4, 83);
-    color: rgb(255, 255, 255);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.5em;
-    letter-spacing: 0.3em;
-    line-height: 0.5em;
+    color: rgba(250, 248, 248, 0.87);
+    font-family: 'Trebuchet MS';
+    font-size: 1em;
     box-sizing: border-box;
 }
 ul {
@@ -14,6 +12,8 @@ ul {
 }
 li {
     float: right;
+    font-size: 0.7rem;
+    padding: 1em;
 }
 a {
     text-decoration: none;
@@ -23,7 +23,6 @@ a:hover {
 }
 li a {
     display: block;
-
 }
 body {
     display: block;
@@ -32,20 +31,23 @@ body {
 img {
     width: 100%;
     height: auto;
+    position: relative;
 }
 .first_page article {
-    position: absolute;
+    position: absoulte;
     top: 45%;
     text-align: center;
+    width: 60%;
+}
+img:hover {
+    opacity: 0.5;
 }
 .first_page h1 {
     text-transform: uppercase;
-    font-size: 8em;
+    font-size: 4em;
+    font-weight: bold;
 }
 .first_page h2 {
     right: 15%;
-    font-size: 6em;
-}
-.first_page p:hover {
-    color:rgb(255, 0, 191);
+    font-size: 2em;
 }
