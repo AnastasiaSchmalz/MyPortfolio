@@ -54,6 +54,13 @@ img:hover {
 .first_page p {
     font-family: 'Courier New', Courier, monospace;
 }
+img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 15%;
+    z-index: 1;
+}
 .second_page p {
     font-family: 'Courier New', Courier, monospace;
 }
