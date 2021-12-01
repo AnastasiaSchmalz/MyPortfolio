@@ -2,7 +2,7 @@
     background-color: rgb(28, 4, 83);
     color: rgba(250, 248, 248, 0.87);
     font-family: 'Trebuchet MS';
-    font-size: 1em;
+    font-size: 1.1em;
     box-sizing: border-box;
 }
 ul {
@@ -21,6 +21,9 @@ a {
 a:hover {
     color:rgb(253, 4, 170);
 }
+.top_nav {
+    position: sticky;
+}
 body {
     display: block;
 }
@@ -32,15 +35,15 @@ img {
 .first_page article {
     position: absoulte;
     top: 45% !important;
-    text-align: center;
     width: 60%;
-    margin: 0;
+    margin-right: 0;
+    z-index: 2;
 }
 img:hover {
     opacity: 0.5;
 }
 .greeting {
-    color:rgb(253, 4, 170) !important;
+    color:rgb(255, 88, 199) !important;
 }
 .first_page h1 {
     text-transform: uppercase;
@@ -51,6 +54,6 @@ img:hover {
     right: 15%;
     font-size: 2em;
 }
-.first_page p {
+.secong_page p {
     font-family: 'Courier New', Courier, monospace;
 }
