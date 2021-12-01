@@ -5,6 +5,9 @@
     font-size: 1.05em;
     box-sizing: border-box;
 }
+header {
+    position: sticky;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -23,17 +26,14 @@ a:hover {
 }
 .top_nav {
     right: 10%;
-    position: sticky;
 }
 body {
     display: block;
 }
-main {
-    width: 80%;
-}
 .first_page article {
     display: inline;
     position: absoulte;
+    width: 80%;
     top: 70%;
     z-index: 2;
 }
@@ -58,7 +58,7 @@ img {
     width: 100%;
     height: auto;
     position: flex;
-    top: 20%;
+    top: 10%;
     z-index: 1;
 }
 .second_page p {
