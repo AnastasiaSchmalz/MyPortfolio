@@ -1,17 +1,16 @@
 * {
+    background-color: #010552;
     color: rgba(250, 248, 248, 0.87);
     font-family: 'Trebuchet MS';
     font-size: 1.05em;
     box-sizing: border-box;
-}
-header {
-    position: sticky;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     float: right;
+    position: sticky;
 }
 li {
     padding: 1em;
@@ -27,11 +26,6 @@ a:hover {
     right: 10%;
 }
 body {
-    background-image: url('20191003_200403 (2).jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
     display: block;
 }
 .first_page article {
