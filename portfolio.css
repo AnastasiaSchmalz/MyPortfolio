@@ -1,10 +1,4 @@
 * {
-    background-color: rgb(28, 4, 83);
-    background-image: url('20191003_200403 (2).jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
     color: rgba(250, 248, 248, 0.87);
     font-family: 'Trebuchet MS';
     font-size: 1.05em;
@@ -33,6 +27,11 @@ a:hover {
     right: 10%;
 }
 body {
+    background-image: url('20191003_200403 (2).jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
     display: block;
 }
 .first_page article {
